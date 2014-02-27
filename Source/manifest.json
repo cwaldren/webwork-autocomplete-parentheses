@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Webwork Parenthesis Autocompleter",
+	"version": "1.0",
+	"description": "Completes parenthesis when you open them.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://math.webwork.rochester.edu/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
