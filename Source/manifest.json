@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Webwork Parenthesis Autocompleter",
+	"name": "Webwork Parentheses Autocompleter",
 	"version": "1.0",
-	"description": "Completes parenthesis when you open them.",
+	"description": "Completes parenthesis when you open them, also does some deleting.",
 	"content_scripts": 
 	[
 		{
